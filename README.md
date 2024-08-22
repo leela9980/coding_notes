@@ -32,6 +32,12 @@ Python coding Interview quick tips
   for k in my_dict:
   #only values
   for v in my_dict.values():
+  # iterate matrix r,c indexes
+  for r in range(len(matrix)):
+      for c in range(len(matrix[0])):
+  #iterate matrix to get value
+  for row in matrix:
+    for element in row:
 ```
 #### MIN,MAX,SUM
 ```python
