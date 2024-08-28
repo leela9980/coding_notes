@@ -82,6 +82,15 @@ Python coding Interview quick tips
    my_dict['blah'] = my_dict.get('blah', [])
    my_dict['blah'].add(2)
  ```
+#### Sort
+```python
+   my_list.sort()
+   # Sort in descending
+   my_list.sort(reverse=True)
+   # Sort with custom comparator
+   my_list.sort(key=lambda x: x[0])
+```
+  
 #### HEAP
 ```python
 Import heapq
